@@ -1,58 +1,113 @@
+#menubar{
+    background-color: salmon;
+    
+    
+}
+#foodie{
+    color: rgb(0, 1, 2);
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+}
+
+.button-style{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.button-style:link{
+    
+    background-color: salmon;
+}
+.button-style:hover{
+    background-color: #333;
+    border: none;
+    color: rgb(70, 0, 0);    
+}
+
+  
 .display-flex{
     display: flex;
 }
 .heading{
     font-family: 'Zen Tokyo Zoo', cursive;
-    font-size:xx-large;
+    font-size:  300%;
 }
+
 body{
-    background-image: ;
-    background-repeat: no-repeat;
+    background-image:url(images/layered-waves-haikei.png);
+    background-repeat: repeat-y;
     background-size: cover;
-    background-blend-mode: color;
+    background-attachment: fixed;
     margin: 0;
 }
+
 .half-width{
     width: 50%;
     padding: 20px;
 }
+#good-food-div{
+    padding-left: 20%;
+}
 #buira-khay{
     width:80%;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+}
+#para2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 500
 }
 span{
     color: coral;
 }
 a{
     text-decoration: none;
+    color: rgb(70, 2, 58);
+
+}
+.read-more-link{
+    
     padding: 10px 40px;
     border-radius: 10px;
     font-weight: 300;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-a:link{
+.read-more-link:link{
     background-image: linear-gradient(to right,#3E5151, #DECBA4);
     color: rgb(81, 87, 2);
 }
-a:visited{
+.read-more-link:visited{
     background-image: linear-gradient(to right,#3E5151, #DECBA4);
     color: rgb(60, 77, 0);
 }
-a:hover{
+.read-more-link:hover{
     color: darkkhaki;
     background-image: linear-gradient(to right,#C04848,#480048);
 }
-a:active{
+.read-more-link:active{
     color: cornsilk;
     background-image:linear-gradient(to right,#FC354C,#0ABFBC);
 }
 #piccir-chobi{
     width:50%;
     padding-left: 10%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
 }
 #about-me-bg{
-    background-image: url(images/7.png);
+    background-image: url(images/pexels-karolina-grabowska-5386704.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 #taste-these{
     text-align: center;
@@ -71,12 +126,52 @@ a:active{
     border-radius: 30px;
     padding: 20px;
 }
-.border-of-recipes{
+.each-recipe-box{
     box-shadow: 10px 5px 5px black;
-    margin: 5% ;
+    margin: 20px ;
     border-radius: 10px;
     Border-left: 7px solid;
     Border-image: linear-gradient(rgb(137, 137, 231), rgb(47, 53, 53));
     Border-image-slice: 1;
+    width: 33%;
 
+}
+.recipe-heading{
+    padding:0% 5%;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+}
+#are-you-hungry{
+    text-align: center;
+
+}
+footer{
+    
+    text-align: center;
+    background-color:#fa72685e;
+    background-size:0mm;
+}
+footer h3{
+    margin-bottom: 0;
+    padding-top: 20px;     ;
+}
+footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.form-div{
+    padding: 2%;
+    color:#141E30;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+legend{
+          
+    color: #141E30;
+    font: 1em sans-serif;
+}
+footer span{
+    color: rgb(207, 8, 108);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
