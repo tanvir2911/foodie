@@ -1,0 +1,45 @@
+section{
+    display: flex;
+}
+.gfgl{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+body{
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+}
+.half-width{
+    width: 50%;
+    padding: 20px;
+}
+#buira-khay{
+    width:80%;
+}
+span{
+    color: coral;
+}
+a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:link{
+    background-image: linear-gradient(to right,#3E5151, #DECBA4);
+    color: rgb(76, 82, 2);
+}
+a:visited{
+    background-image: linear-gradient(to right,#3E5151, #DECBA4);
+    color: rgb(60, 77, 0);
+}
+a:hover{
+    color: darkkhaki;
+    background-image: linear-gradient(to right,#C04848,#480048);
+}
+a:active{
+    color: cornsilk;
+    background-image:linear-gradient(to right,#FC354C,#0ABFBC);
+}
